@@ -35,16 +35,29 @@ body {
 
 header {
 
-    background-color: var(--cor4);
-    color: white;
+    background-image: linear-gradient(to bottom,var(--cor3), var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    
 }
 
 header > h1 {
     font-family: var(--fonte-destaque);
+    color: white;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    font-size: 3em;
+
 }
 
 header > p {
     color: white;
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 20px;
 }
 
 main {
@@ -87,6 +100,20 @@ main h2 {
 
 nav {
     background-color: var(--cor5);
+    padding: 10px;
+    
+}
+
+nav > a {
+    color: var(--cor2);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    color: var(--cor5);
+    background-color: var(--cor2);
 }
 
 footer {
