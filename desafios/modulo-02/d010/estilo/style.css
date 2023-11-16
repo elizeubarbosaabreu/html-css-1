@@ -88,14 +88,7 @@ main strong {
     padding: 2px 6px;
 }
 
-div iframe {
-    max-width: 480px;
-    max-height: 280px;
-    margin: auto;
-    display: block;
-    padding: 30px;
-    
-}
+
 main a {
     text-decoration: none;
     font-weight: bold;
@@ -201,10 +194,29 @@ aside ul {
     padding: 30px;
     column-count: 2;
     line-height: 1.3em;
-    list-style-type: "🤟";
+    list-style-type: "\1F5F8";
     
+}o
+
+a.externo::after{
+    content: "\1F517";
 }
 
+#video {
+    margin: 15px 0px;
+    min-width: 300px;
+    background-color: #063d1e;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
+}
+
+#video > iframe {
+    max-width: 300px;
+    max-height: 190px;
+    margin: auto;
+    display: block;
+}
 
 
 
